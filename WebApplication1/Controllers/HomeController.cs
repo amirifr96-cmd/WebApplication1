@@ -11,16 +11,24 @@ namespace WebApplication1.Controllers
         public HomeController(ILogger<HomeController> logger)
         {
             _logger = logger;
+
         }
 
         public IActionResult Index()
         {
             return View();
+
         }
 
         public IActionResult Privacy()
         {
             return View();
+
+        }
+        public IActionResult P()
+        {
+            return View();
+
         }
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
