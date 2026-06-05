@@ -20,5 +20,10 @@ namespace ConsoleApp1
         {
             return a / b;
         }
+        public int subtract(int a, int b) 
+        {
+            Console.WriteLine($"[subtract] a={a},b={b}");
+            checked { return a - b; }
+        }
    }
 }
