@@ -16,10 +16,12 @@ namespace ConsoleApp1
         {
             return a * b;
         }
+        //متد تقسیم 
         public int divide(int a, int b)
         {
             return a / b;
         }
+        //متد سابتراک اضافه شد 
         public int subtract(int a, int b) 
         {
             Console.WriteLine($"[subtract] a={a},b={b}");
