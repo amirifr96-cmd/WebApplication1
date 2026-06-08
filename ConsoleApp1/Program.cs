@@ -8,6 +8,7 @@ int num1 = int.Parse(Console.ReadLine());
 Console.WriteLine("please inter num2");
 int num2=int.Parse(Console.ReadLine());
  int  result=cal.sum(num1, num2);
+int subtarctResult=cal.subtract(num1,num2);
 Console.WriteLine($" sum :{result}");
 Console.ReadKey();
 
